@@ -1,0 +1,46 @@
+*{
+    background-color:#070728;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+form{
+    text-align: center;
+    margin-top: 5%;
+}
+
+p{
+    font-size: 25px;
+}
+
+input.textbox{
+    background-color: white;
+}
+
+input.submit{
+    margin-top: 2%;
+    background-color: white;
+    color: #070728;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: large;
+
+}
+
+.submit :hover{
+    margin-top: 2%;
+    background-color: #070728;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: large;
+}
