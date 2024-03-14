@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.logout{
+    margin-left: 80%;
+    margin-top: 3%;
+    background-color: white;
+    color: #070728;
+    padding: 3,5px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    font-size: medium;
+}
+
+.logoutdiv{
+    margin-left: 86.4%;
+    margin-top: 3%;
+    background-color: white;
+    color: #070728;
+    padding: 3,5px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    font-size: medium;
+}
+
+.logout:hover{
+    background-color: #474747;
+    border-color: #474747;
+    color: white;
+}
+
+.logoutdiv:hover{
+    background-color: #474747;
+    border-color: #474747;
+    color: white;
+}*/
+
+:root{
+    --primary-color:#364156;
+    --secondary-color: white;
+    --third-color: #212D40;
+}
+
+.dark-mode{
+    --primary-color:#222;
+    --secondary-color: white;
+    --third-color:#474747;
+}
+
+body {
+    /*transition: background-color 0.125s;*/
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+
+  .navbar ul{
+    list-style-type: none;
+    background-color: var(--primary-color);
+    padding: 0px;
+    margin: 10px;
+    overflow: hidden;
+    left: 50%;
+
+
+}
+
+.navbar button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 10px; 
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    float: left;
+}
+
+.navbar button:hover{
+    background-color: var(--third-color);
+    cursor:pointer;
+}

@@ -2,8 +2,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initialt-scale=1">
-    <link rel="stylesheet" type="text/css" href="login_layout.css" />
-    <title> Login 1.0</title>
+    <link rel="stylesheet" type="text/css" href="loginV1_1_layout.css" />
+    <title> Login 1.1 </title>
 </head>
 
 <body>
